@@ -1,0 +1,12 @@
+@media (max-width: 425px) {
+    footer {
+      flex-direction: column;
+      height: 18rem;
+    }
+  
+    footer > img {
+      margin-right: 0;
+      margin-bottom: 3.3rem;
+    }
+  }
+  

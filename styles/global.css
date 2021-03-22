@@ -1,0 +1,48 @@
+@font-face {
+    src: url('../assets/fonts/FoundryMonoline-Regular.ttf');
+    font-family: 'FM-Regular';
+  }
+  
+  @font-face {
+    src: url('../assets/fonts/Roboto.ttf');
+    font-family: 'Roboto';
+  }
+  
+  :root {
+    font-size: 60%;
+    transition: 300ms;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  button,
+  input,
+  select,
+  img,
+  a {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  @media (min-width: 700px) {
+      :root {
+          font-size: 62.5%;
+          transition: 300ms;
+      }
+  }
+  

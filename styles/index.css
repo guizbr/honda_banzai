@@ -1,0 +1,404 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.banner img.civic-pequeno {
+    display: none;
+}
+  
+main section.banner img.civic-geracao {
+    display: none;
+}
+
+main div.agenda-test {
+    position: fixed;
+    top: 19rem;
+    right: 9rem;
+    width: 27rem;
+    height: 35.2rem;
+    border-radius: 0.4rem;
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 5px #00000029;
+}
+  
+main div.agenda-test div.solicita {
+    display: flex;
+    padding: 2rem;
+}
+  
+main div.agenda-test div.solicita span {
+    width: 4rem;
+    height: 4rem;
+    background: url('../assets/images/Grupo\ 45.svg') no-repeat;
+}
+  
+main div.agenda-test div.solicita div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.1rem;
+}
+  
+main div.agenda-test div.solicita div h1 {
+    font: 500 1.4rem FM-Regular;
+}
+  
+main div.agenda-test div.solicita div strong {
+    color: #DF0209;
+    font: 800 2.2rem FM-Regular;
+}
+
+main div.agenda-test form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+main div.agenda-test input,
+main div.agenda-test select {
+    width: 230px;
+    height: 36px;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px solid #00000029;
+    border-radius: 0.4rem;
+    color: #00000061;
+    background-color: #EEEEEE;
+    font: 400 1.4rem Roboto;
+}
+  
+main div.agenda-test input:focus,
+main div.agenda-test select:focus {
+    background-color: #FFFFFF;
+    transition: 300ms;
+}
+  
+main div.agenda-test input::placeholder {
+    color: #00000061;
+}
+  
+main div.agenda-test button {
+    width: 23rem;
+    height: 4.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: #FFFFFF;
+    background-color: #1CB72A;
+    font: bold 1.4rem Roboto;
+}
+  
+main div.agenda-test button:hover {
+    background-color: #15a521;
+    transition: 300ms;
+}
+
+main div.agenda-test input.nome {
+    background: url('../assets/images/Grupo\ 32.svg') no-repeat scroll 7px 7px;
+}
+
+main div.agenda-test input.email {
+    background: url('../assets/images/black-envelope.svg') no-repeat scroll 7px 7px;
+}
+
+main div.agenda-test input.cel {
+    background: url('../assets/images/call-answer.svg') no-repeat scroll 7px 7px;
+}
+
+main div.agenda-test select.hora {
+    background: url('../assets/images/clock-circular-outline.svg') no-repeat scroll 7px 7px;
+}
+
+main div.agenda-test select.unidade {
+    background: url('../assets/images/facebook-placeholder-for-locate-places-on-maps.svg') no-repeat scroll 7px 7px;
+}
+
+main section.apresenta-civic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding-left: 10rem;
+    margin-top: 2rem;
+}
+  
+main section.apresenta-civic h1 {
+    margin-bottom: 3rem;
+    font: 500 3.4rem FM-Regular;
+    font-style: italic;
+}
+
+main section.apresenta-civic div.imagens-civic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+  
+main section.apresenta-civic div.imagens-civic div {
+    width: 165px;
+}
+  
+main section.apresenta-civic div.imagens-civic div img {
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+    border: 1px solid #D5D5D5;
+    width: 100%;
+}
+
+#doiscivic {
+    width: 680px;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+main section.apresenta-civic p {
+    width: 87rem;
+    margin-top: 4rem;
+    margin-bottom: 5.3rem;
+    font: 500 1.8rem FM-Regular;
+    line-height: 2.4rem;
+}
+
+main section.interno-mobile {
+    display: none;
+}
+
+main section.informacao-carro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+  
+main section.informacao-carro div.informacao-carro-carousel {
+    width: 86rem;
+    margin-left: 9rem;
+}
+  
+main section.informacao-carro div.informacao-carro-carousel div {
+    display: flex;
+    height: 35rem;
+}
+  
+main section.informacao-carro div.informacao-carro-carousel img {
+    padding: 0.3rem;
+    border: 1px solid #D5D5D5;
+}
+  
+main section.informacao-carro div.informacao-carro-carousel h1 {
+    width: 100%;
+    margin-top: 0.7rem;
+    font: 800 2rem FM-Regular;
+    font-style: italic;
+    text-align: center;
+}
+  
+main section.informacao-carro div.informacao-carro-carousel p {
+    width: 26rem;
+    margin-top: 1rem;
+    font: 300 1.4rem FM-Regular;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.partes{
+    width: 90%;
+    height: auto;
+}
+
+main section.outros-modelos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+    padding-left: 9.8rem;
+}
+  
+main section.outros-modelos h1 {
+    margin-bottom: 0.7rem;
+    font: 400 3.4rem FM-Regular;
+    font-style: italic;
+}
+  
+main section.outros-modelos p {
+    margin-bottom: 3rem;
+    font: 400 1.8rem FM-Regular;
+}
+  
+main section.outros-modelos nav.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87rem;
+    height: 35rem;
+}
+  
+main section.outros-modelos nav.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 27rem;
+    height: 100%;
+    border: 1px solid #D5D5D5;
+}
+  
+main section.outros-modelos nav.cards div p {
+    margin-top: 1rem;
+    font: 300 1.4rem FM-Regular;
+    line-height: 2rem;
+    text-align: center;
+}
+  
+main section.outros-modelos nav.cards div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23rem;
+    height: 3.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid #D5D5D5;
+    color: #000000;
+    background-color: #FFFFFF;
+    font: 200 1.4rem Roboto;
+}
+  
+main section.outros-modelos nav.cards div a:hover {
+    background-color: #EEEEEE;
+    transition: 300ms;
+}
+
+.modelos{
+    width: 80%;
+    height: auto;
+}
+
+main section.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 22.8rem;
+    margin-top: 6rem;
+    background-color: #EEEEEE;
+}
+  
+main section.servicos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+main section.servicos div a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 27rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+    border: 1px solid  #DF0209;
+    background-color: #FFFFFF;
+    color: #727B7A;
+    font: 500 1.6rem FM-Regular;
+    font-style: italic;
+    letter-spacing: -0.07rem;
+}
+  
+main section.servicos div a + a {
+    margin-left: 3rem;
+}
+  
+main section.servicos div a strong {
+    color: #DF0209;
+    font: 800 2.6rem FM-Regular;
+    font-style: italic;
+}
+  
+main section.servicos div a.gps-servc {
+    flex-direction: row;
+    color: #000000;
+    font: 500 1.4rem FM-Regular;
+    font-style: normal;
+}
+  
+main section.servicos div a.gps-servc div {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 1.5rem;
+}
+
+main section.servicos div a.gps-servc img {
+    width: 10%;
+    height: auto;
+}
+  
+main section.servicos div a.gps-servc strong {
+    font-size: 2.2rem;
+    font-style: normal;
+}
+  
+main section.servicos h1 {
+    width: 100%;
+    margin-top: 1.7rem;
+    font: 400 2.4rem FM-Regular;
+    font-style: italic;
+    text-align: center;
+}
+  
+main section.servicos nav {
+    margin-top: 2rem;
+    width: 100%;
+}
+  
+main section.servicos nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+main section.servicos nav ul li a {
+    margin-right: 2rem;
+}
+
+.face img {
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 32px;
+}
+
+.insta a {
+    border: 1px solid #c5c5c5;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.twt img {
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+  
+main section.servicos nav ul li a:hover {
+    opacity: 0.7;
+    transition: 300ms;
+}

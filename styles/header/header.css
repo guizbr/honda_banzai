@@ -1,0 +1,93 @@
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    background: #EEEEEE;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 114px;
+}
+  
+header nav ul.portal {
+    margin-left: 114px;
+}
+  
+header nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 2.5rem;
+}
+  
+header nav ul.portal li {
+    margin: 0;
+}
+  
+header nav ul li a {
+    margin-left: 7px;
+    color: #707070;
+    font: 500 12px FM-Regular;
+}
+  
+header nav ul li span {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+}
+  
+header nav ul li span.lnkportal {
+    background: url('../../assets/images/home-button.svg') no-repeat;
+}
+
+header nav ul li span.localiza-conc {
+    background: url('../../assets/images/facebook-placeholder-for-locate-places-on-maps.svg') no-repeat;
+    margin-top: 4px;
+}
+  
+header nav ul li span.contato {
+    background: url('../../assets/images/black-envelope.svg') no-repeat;
+    margin-top: 6px;
+}
+
+header div.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background: #FFFFFF;
+}
+  
+header div.cabecalho a img {
+    margin-left: 11rem;
+}
+  
+header div.cabecalho div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11rem;
+}
+  
+header div.cabecalho div h1 {
+    color: #727B7A;
+    font: 500 1.6rem FM-Regular;
+    font-style: italic;
+    letter-spacing: -0.7px;
+}
+  
+header div.cabecalho div h2 {
+    color: #DF0209;
+    font: 800 2.6rem FM-Regular;
+    font-style: italic;
+}
+
+header nav.mobile {
+    display: none;
+}

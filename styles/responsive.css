@@ -1,0 +1,329 @@
+@media (min-width: 1440px) {
+    main section.banner {
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+}
+
+@media (max-width: 1350px) {
+    main div.agenda-test {
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 1024px) {
+    main section.banner img.civic-grande {
+        display: flex;
+    }
+  
+    main section.banner img.civic-pequeno {
+        display: none;
+    }
+}
+  
+@media (max-width: 768px) {
+    main section.banner img.civic-grande {
+        display: flex;
+    }
+  
+    main section.banner img.civic-pequeno {
+        display: none;
+    }
+
+    main div.agenda-test {
+        position: fixed;
+        top: 15rem;
+        right: 4rem;
+        width: 20rem;
+        height: 37.5rem;
+        opacity: 1;
+    }
+    
+      main div.agenda-test input,
+      main div.agenda-test select,
+      main div.agenda-test button {
+        width: 18rem;
+        height: 4rem;
+    }
+
+    main div.agenda-test div.solicita span {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    main div.agenda-test input.nome {
+        background: url('../assets/images/Grupo\ 32.svg') no-repeat scroll 3px 4px;
+    }
+    
+    main div.agenda-test input.email {
+        background: url('../assets/images/black-envelope.svg') no-repeat scroll 3px 6px;
+    }
+    
+    main div.agenda-test input.cel {
+        background: url('../assets/images/call-answer.svg') no-repeat scroll 3px 4px;
+    }
+    
+    main div.agenda-test select.hora {
+        background: url('../assets/images/clock-circular-outline.svg') no-repeat scroll 3px 4px;
+    }
+    
+    main div.agenda-test select.unidade {
+        background: url('../assets/images/facebook-placeholder-for-locate-places-on-maps.svg') no-repeat scroll 3px 4px;
+    }
+
+    main section.apresenta-civic {
+        padding-left: 5rem;
+    }
+    
+    main section.apresenta-civic h1 {
+        width: 45rem;
+        font: 800 2.4rem FM-Regular;
+        text-align: center;
+    }
+
+    main section.apresenta-civic div.imagens-civic.ig {
+        display: flex;
+        width: 20%;
+        height: auto;
+    }
+
+    #doiscivic {
+        width: 80%;
+        margin-left: 4rem;
+        margin-top: 4rem;
+    }
+
+    main section.apresenta-civic p {
+        width: 70%;
+        margin-top: 2rem;
+        font: 500 2rem FM-Regular;
+        line-height: 2.4rem;
+        text-align: left;
+    }
+
+    main section.informacao-carro {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 12rem;
+    }
+    
+    main section.informacao-carro div.informacao-carro-carousel {
+        margin-left: 0;
+        width: 28rem;
+    }
+    
+    main section.informacao-carro div.informacao-carro-carousel h1 {
+        width: 100%;
+        margin-top: 0.7rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    main section.informacao-carro div.informacao-carro-carousel p {
+        width: 25rem;
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    main section.outros-modelos {
+        padding-left: 0;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+    
+    main section.outros-modelos h1 {
+        width: 45rem;
+        font-size: 2.4rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    main section.outros-modelos p {
+        width: 45rem;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        text-align: center;
+    }
+    
+    main section.outros-modelos nav.cards {
+        flex-direction: column;
+        width: 45rem;
+        height: 95rem;
+    }
+    
+    main section.outros-modelos nav.cards div {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    main section.outros-modelos nav.cards div a {
+        margin-bottom: 1rem;
+    }
+
+    .modelos{
+        width: 60%;
+        height: auto;
+    }
+
+    main section.servicos {
+        margin-top: 22rem;
+    }
+}
+
+@media (max-width: 425px) {
+  
+    main section.banner img.civic-grande {
+      display: none;
+    }
+
+    main section.banner img.civic-pequeno {
+        display: flex;
+    }
+  
+    main section.banner img.civic-geracao {
+      display: initial;
+      margin-left: 4rem;
+    }
+
+    main div.agenda-test {
+        position: initial;
+        width: 87%;
+        margin-top: 4.5rem;
+        opacity: 1;
+    }
+    
+    main div.agenda-test input,
+    main div.agenda-test select,
+    main div.agenda-test button {
+        width: 44.5rem;
+    }
+    
+    main div.agenda-test div.solicita{
+        padding-top: 15px;
+        padding-left: 18px;
+        padding-bottom: 15px;
+    }
+
+    main section.apresenta-civic {
+        padding-left: 5rem;
+    }
+    
+    main section.apresenta-civic h1 {
+        font: 800 3.4rem FM-Regular;
+        text-align: center;
+    }
+
+    .imgcivic {
+        display: none;
+    }
+
+    #doiscivic {
+        width: 100%;
+        margin-left: 4rem;
+        margin-top: 4rem;
+        margin-right: 5.5rem;
+    }
+
+    main section.apresenta-civic p {
+        width: 90%;
+        margin-top: 2rem;
+        font: 500 2rem FM-Regular;
+        line-height: 2.4rem;
+        text-align: center;
+    }
+
+    #interno{
+        display: none;
+    }
+
+    main section.interno-mobile {
+        display: flex;
+    }
+
+    main section.interno-mobile div{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: auto;
+        opacity: 0.95;
+    }
+
+    main section.interno-mobile h1{
+        position: absolute;
+        bottom: 90px;
+        left: 20px;
+        color: #FFFFFF;
+        font: 500 3.4rem FM-Regular;
+        font-style: italic;
+        text-align: center;
+    }
+
+    main section.interno-mobile p{
+        position: absolute;
+        bottom: 43px;
+        color: #FFFFFF;
+        font: 500 2.5rem FM-Regular;
+        text-align: center;
+    }
+
+    main section.informacao-carro {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .partes{
+        width: 100%;
+        height: auto;
+    }
+
+    main section.informacao-carro div.informacao-carro-carousel h1 {
+        width: 100%;
+        margin-top: 0.7rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    main section.informacao-carro div.informacao-carro-carousel p {
+        width: 25rem;
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    main section.outros-modelos {
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    main section.outros-modelos h1 {
+        width: 33rem;
+    }
+    
+    main section.outros-modelos p {
+        width: 33rem;
+    }
+    
+    main section.outros-modelos nav.cards {
+        width: 40rem;
+        height: 105rem;
+    }
+
+    main section.servicos {
+        height: 40rem;
+        margin-top: 12rem;
+    }
+    
+    main section.servicos > div {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    
+    main section.servicos div a + a {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}

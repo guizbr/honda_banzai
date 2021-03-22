@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+    header nav {
+      height: 25px;
+      justify-content: space-around;
+    }
+  
+    header nav ul {
+      margin-right: 0;
+    }
+  
+    header nav ul.portal {
+      margin-left: 0;
+    }
+  
+    header nav ul.portal li {
+      margin: 0;
+    }
+
+    header div.cabecalho div h1 {
+      font: 500 15px FM-Regular;
+  }
+    
+  header div.cabecalho div h2 {
+      font: 800 23px FM-Regular;
+  }
+
+  :root{
+    font-size: 41%;
+  }
+}
+
+@media (max-width: 425px) {
+    header nav {
+      display: none;
+    }
+  
+    header nav.mobile {
+      display: initial;
+    }
+  
+    header nav.mobile {
+      display: flex;
+      width: 100%;
+      height: 4rem;
+      background: #EEEEEE;
+    }
+  
+    header nav.mobile ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+    }
+  
+    header nav.mobile ul li {
+      height: 4rem;
+      margin: 0;
+    }
+  
+    header nav.mobile ul li a {
+      margin: 0;
+    }
+  
+    header nav.mobile ul li a img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    header div.cabecalho {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 18.5rem;
+    }
+  
+    header div.cabecalho a img {
+      margin-left: 2.5rem;
+      margin-bottom: 3rem;
+    }
+  
+    header div.cabecalho div {
+      width: 100%;
+      align-items: center;
+      margin-right: 1rem;
+    }
+}
